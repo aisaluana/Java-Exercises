@@ -31,7 +31,7 @@ public class Product {
 	}
 	
 	public String priceTag() {
-		return name + " $ " + price;
+		return name + " $ " + price + "\n";
 	}
 	
 
