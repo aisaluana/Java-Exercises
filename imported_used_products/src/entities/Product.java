@@ -2,7 +2,7 @@ package entities;
 
 public class Product {
 	
-	private String name;
+	protected String name;
 	protected Double price;
 	
 	public Product() {
