@@ -31,5 +31,5 @@ public abstract class TaxPayer {
 		this.annualIncome = annualIncome;
 	}
 	
-	public abstract Double tax(Double taxes);
+	public abstract Double tax();
 }

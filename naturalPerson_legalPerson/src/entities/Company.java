@@ -23,13 +23,13 @@ public class Company extends TaxPayer{
 	}
 
 	@Override
-	public Double tax(Double taxes) {
+	public Double tax() {
 		if (numberOfEmployees <=10) {
-			taxes = annualIncome * 0.16;
+			return getAnnualIncome() * 0.16;
 		} else {
-			taxes = annualIncome * 0.14;
+			return getAnnualIncome() * 0.14;
 		}
-		return taxes;
+		
 	}
 	
 	
